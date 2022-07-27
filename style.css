@@ -79,8 +79,15 @@ h6 {
 
 /* ---------------------------------HEADER-------------------------------------- */
 
+.header__container {
+   background-color: #1f2937;
+
+   width: 100%;
+}
+
 .header {
    background-color: #1f2937;
+   margin: 0 auto;
    width: 1200px;
    align-self: center;
    display: flex;
@@ -123,7 +130,8 @@ h6 {
 /* ---------------------------------MAIN--------------------------------------- */
 
 .main {
-   width: 1200px;
+   /* width: 1200px; */
+   background-color: #1f2937;
    align-self: center;
    display: flex;
    flex: 1;
@@ -133,8 +141,11 @@ h6 {
 
 /* ---------------------------------MAIN-ABOUT-------------------------------------- */
 .about {
+   width: 1200px;
+   margin: 0 auto;
+
    padding: 100px 0;
-   background-color: #1f2937;
+   /* background-color: #1f2937; */
    display: flex;
    justify-content: space-between;
    gap: 30px;
@@ -295,7 +306,7 @@ h6 {
 
 .footer {
    background-color: #1f2937;
-   width: 1200px;
+   width: 100%;
    align-self: center;
    text-align: center;
    color: #f9faf8;
@@ -310,5 +321,4 @@ h6 {
    display: flex;
    flex-direction: column;
    margin: 0 auto;
-   background-color: rgba(177, 218, 252, 0.523);
 }
