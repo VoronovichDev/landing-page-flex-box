@@ -101,7 +101,7 @@ h6 {
 
 .logo__image__block {
    border-radius: 50%;
-   background: url('./img/logo.png') 50% / 138% auto no-repeat;
+   background: url('img/logo.png') 50% / 138% auto no-repeat;
    width: 70px;
    height: 70px;
    margin: 10px 0;
@@ -168,7 +168,7 @@ h6 {
    margin: 0 15px 0 0;
    width: 700px;
    height: 400px;
-   background: url('./img/main.jpg') 50%/160% auto no-repeat;
+   background: url('img/main.jpg') 50%/160% auto no-repeat;
 }
 /* --------------------------------------------------------------------------------- */
 
@@ -201,7 +201,7 @@ h6 {
    border-radius: 10px;
    width: 200px;
    height: 200px;
-   background: url('./img/econom.jpg') 50% /190% auto no-repeat;
+   background: url('img/econom.jpg') 50% /190% auto no-repeat;
    margin: 0 0 15px 0;
 }
 .prices__item__imgComfort {
@@ -209,21 +209,21 @@ h6 {
    margin: 0 0 15px 0;
    width: 200px;
    height: 200px;
-   background: url('./img/comfort.jpg') 60%/190% auto no-repeat;
+   background: url('img/comfort.jpg') 60%/190% auto no-repeat;
 }
 .prices__item__imgBusiness {
    border-radius: 10px;
    margin: 0 0 15px 0;
    width: 200px;
    height: 200px;
-   background: url('./img/business.jpg') 30%/190% auto no-repeat;
+   background: url('img/business.jpg') 30%/190% auto no-repeat;
 }
 .prices__item__imgLuxury {
    border-radius: 10px;
    margin: 0 0 15px 0;
    width: 200px;
    height: 200px;
-   background: url('./img/luxury.jpg') 30%/190% auto no-repeat;
+   background: url('img/luxury.jpg') 30%/190% auto no-repeat;
 }
 .prices__item__text {
    color: #1f2937;
