@@ -1,0 +1,162 @@
+/* ---------------------------------reset-css--------------------------------------- */
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+/* -------------------------------------------------------------------------------- */
+
+html {
+   font-family: 'Roboto', sans-serif;
+}
+
+/* ---------------------------------HEADER-------------------------------------- */
+
+.header {
+   background-color: #1f2937;
+   width: 1200px;
+   align-self: center;
+   border: 3px rgb(59, 103, 246) solid;
+   display: flex;
+   justify-content: space-between;
+}
+
+.header__logo__block {
+   align-items: center;
+   margin: 0 0 0 15px;
+   border: 1px rgb(255, 255, 255) solid;
+   display: flex;
+   width: 300px;
+   justify-content: space-between;
+}
+.header__logo {
+   color: #f9faf8;
+   font: 900 24px Roboto;
+}
+
+.logo__image__block {
+   border-radius: 50%;
+   background: url('./img/logo.png') 50% / 138% auto no-repeat;
+   width: 80px;
+   height: 80px;
+   /* border: 3px white solid; */
+}
+
+.header_links {
+   align-items: center;
+
+   border: 1px rgb(255, 255, 255) solid;
+   margin: 0 15px 0 0;
+   display: flex;
+   gap: 15px;
+}
+.header__link a {
+   color: #f9faf8;
+   font: 400 18px Roboto;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* ---------------------------------MAIN--------------------------------------- */
+
+.main {
+   width: 1200px;
+   align-self: center;
+   display: flex;
+   flex: 1;
+   border: 3px rgb(223, 85, 0) solid;
+}
+/* ---------------------------------------------------------------------------- */
+
+/* ---------------------------------FOOTER--------------------------------------- */
+
+.footer {
+   width: 1200px;
+   align-self: center;
+   border: 3px rgb(0, 109, 86) solid;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.wrapper {
+   /* align-items: center; */
+   border: 5px rgb(255, 96, 96) solid;
+   /* max-width: 1200px; */
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   background-color: rgba(177, 218, 252, 0.523);
+}
